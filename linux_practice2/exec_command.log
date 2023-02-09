@@ -1,0 +1,124 @@
+    1  ls
+    2  ls usr
+    3  cd usr
+    4  cd
+    5  ls
+    6  cd /root
+    7  ls
+    8  cd /
+    9  ls
+   10  ls ?
+   11  ls /
+   12  ls home
+   13  ls server_lesson
+   14  ls root
+   15  ls root/server_lesson/
+   16  histry
+   17  history
+   18  git version
+   19  git status
+   20  ls
+   21  cd root/server_lesson/
+   22  git status
+   23  ls
+   24  mkdir linux_practice1
+   25  ls
+   26  cd linux_practice1/
+   27  mkdir public
+   28  ls
+   29   cd public/
+   30  touch index.php
+   31  ls
+   32  cp index.php index_bk.php
+   33  ls
+   34  pwd
+   35  cd ..
+   36  cp -r public tmp
+   37  ls
+   38  ls tmp
+   39  pwd
+   40  ls
+   41  cd tmp
+   42  ls
+   43  rm index_bk.php 
+   44  ls
+   45  pwd
+   46  cd ../..
+   47  touch README.md
+   48  ls
+   49  pwd
+   50  cd root
+   51  cd ..
+   52  pwd
+   53  ls
+   54  ls server_lesson/
+   55  cd server_lesson/
+   56  ls
+   57  ls
+   58  cd ..
+   59  vi server_lesson/README.md 
+   60  pwd
+   61  ls
+   62  cd server_lesson
+   63  ls
+   64  cat README.md 
+   65  pwd
+   66  ls
+   67  mkdir -p /linux_practice2/documents
+   68  ls
+   69  ls linux_practice1/
+   70  ls /
+   71  mv /linux_practice2 root
+   72  ls root/
+   73  ls document
+   74  ls /
+   75  cd root/
+   76  ls
+   77  cd documents/
+   78  ls
+   79  u
+   80  pwd
+   81  cd ../..
+   82  pwd
+   83  ls
+   84  mv root linux_practice2
+   85  ls
+   86  ls linux_practice2
+   87  /
+   88  cd 
+   89  ls
+   90  cd server_lesson/
+   91  ls
+   92  cd /
+   93  ls
+   94  cd root/
+   95  ls
+   96  cd server_lesson/
+   97  ls
+   98  ls linux_practice2/documents/
+   99  touch linux_practice2/documents/gizumo{01..50}.md
+  100  ls linux_practice2/documents/
+  101  pwd
+  102  ls
+  103  cd linux_practice2
+  104  ls
+  105  ls documents/
+  106  mkdir trash
+  107  ls
+  108  mv documents/gizumo(20..40).md trash
+  109  mv documents/gizumo{20..40}.md trash
+  110  ls trash
+  111  pwd
+  112  touch .gitignore
+  113  ls
+  114  ls -a
+  115  vi .gitignore 
+  116  cat .gitignore 
+  117  history 300
+  118  pwd
+  119  man tree linux_practice2
+  120  tree linux_practice2
+  121  sudo apt-get install tree
+  122  pwd
+  123  touch exec_command.log
+  124  history 300 >> exec_command.log
